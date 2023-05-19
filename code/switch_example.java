@@ -13,8 +13,10 @@ public class switch_example {
         switch (number) {
             case 1:
                 System.out.println("1을 입력했군");
+                break;
             case 2:
                 System.out.println("2를 입력했군");
+                break;
             default:
                 System.out.println("멍청하군");
         }
