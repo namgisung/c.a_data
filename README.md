@@ -48,4 +48,4 @@ ex) final int a = 0;
 변수 기본형 종류
 문자형 char
 정수형 int
-실무형 float, double
+실수형 float, double
