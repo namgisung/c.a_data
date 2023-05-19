@@ -44,3 +44,8 @@ ex) int a = 10;
 
 그리고 처음 변수를 선언하고 최종일 경우 앞에 final을 붙여 준다.
 ex) final int a = 0;
+
+변수 기본형 종류
+문자형 char
+정수형 int
+실무형 float, double
