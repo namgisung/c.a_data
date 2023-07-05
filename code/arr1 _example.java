@@ -1,6 +1,6 @@
 import java.util.Arrays; // Arrays.toString()을 사용하기 위한 import
 
-class Test{
+class Arr1{
 	public static void main(String[] args) {
         int[] iArr = {100, 95, 80, 70, 60};
         
