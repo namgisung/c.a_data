@@ -18,6 +18,7 @@ for(int i = 1 ; i < score.length ; i++){
 
 // 처음부터 선언 + 초기화를 한번에 진행
 int[] score2 = {10, 20, 30, 40, 50};
+int value = number[1]
     System.out.println(Arrays.toString(score));
     System.out.println(Arrays.toString(number));
     System.out.println(Arrays.toString(score2));
