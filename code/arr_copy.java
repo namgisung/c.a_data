@@ -11,7 +11,11 @@ class Arr_int{
     for(int i=0; i < arr.length;i++)
       System.out.println("arr["+i+"]:"+arr[i]);
     int[] tmp = new int[arr.length*2];
-    for(
+    for(int i = 0; i < arr.length; i++)
+	    tmp[i] = arr[i];
+
+    arr = tmp;
+    System.out.println()
     
   }
 }
