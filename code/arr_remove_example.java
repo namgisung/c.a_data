@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class arr_copy_example {
+public class arr_remove_example {
     public static void main(String[] args) {
         String[] strArray = { "10", "20", "30", "40", "50", "60", "70" };
 
