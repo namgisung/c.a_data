@@ -1,4 +1,4 @@
-public class arr_copy_example {
+public class arr_copy1_example {
 
         public static void main(String[] args) {
             int[] arr = new int[5];
