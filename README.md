@@ -183,6 +183,13 @@ for(int i = 0;i <= 10;i++) {
   
 11. continue문
 continue문은 반복문 내만 사용될 수 있으며, 반복이 진행 중에 continue문을 만나게 되면 반복문의 끝으로 이동하여 다음 반복으로 넘어간다.
+ex)
+for(imt i=0; i<= 10; i++) {
+  if(i%3 == 0) {
+  continue;
+  }
+  System.out.println(i);
+}
 
 13. 배열
 배열이란 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것이다.
@@ -287,5 +294,11 @@ int[] score = new int[5];
   System.arraycopy(num, 0, newNum, 0, num.length);
   ->
   num[0]에서 newNum[0]으로 num.length개의 데이터를 복사
-  ex)
-  
+  ex) 
+  char[] abc = { 'A', 'B', 'C', 'D'};
+  char[] num = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+
+  char[] result = new char[abc.length+ num.length];
+  System.arraycopy(abc, 0, result, 0, abc.length);
+  System.arraycopy(num, 0, result,abc.length, num.length);
+  System.out.println(result); //ABCD0123456789
