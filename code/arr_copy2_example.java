@@ -5,7 +5,7 @@ public class arr_copy2_example {
         System.out.println(abc);
         System.out.println(num);
 
-        //배열zbc와 num을 붙여서 하나의 배열 (result)롤 만든다.
+        //배열abc와 num을 붙여서 하나의 배열 (result)롤 만든다.
         char[] result = new char[abc.length+ num.length];
         System.arraycopy(abc, 0, result, 0, abc.length);
         System.arraycopy(num, 0, result,abc.length, num.length);
