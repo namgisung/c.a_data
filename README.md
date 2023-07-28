@@ -1,4 +1,10 @@
 # c.a_data
+
+[참고] 
+public class 부터 중괄호 전까지에 나오는 것은 파일명 입니다.
+replit은 파일 이름이 main.java로 고정되어 있어 public class Main으로 바꿔 주셔야 하고
+만약 파일 명이 다르다 하시면 public class 파일명 으로 작성해주면 됩니다
+
 1. 출력
 (1) System.out.println(“”);
 “”안에 문자를 입력하거나 변수를 입력하여 출력할 수 있다.
