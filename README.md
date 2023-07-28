@@ -57,7 +57,7 @@ ex) final int a = 0;
 ex)
 double input = 3.14; //변수 타입이 실수형으로 초기화됨
 int intValue = (int)input //실수형 input변수를 정수형으로 바꿔 정수인 3만 초기화됨
-System.out.println(input);
+System.out.println(intValue);
 
 변수 기본형 종류
 논리형: boolean (true나 false 중 하나의 값을 가지며, 조건식과 논리적 계산에 사용한다)
